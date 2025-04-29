@@ -1,0 +1,16 @@
+{
+  "name": "test-api",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.1",
+    "hono": "^4.7.7",
+    "jose": "^6.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.31",
+    "tsx": "^4.7.1"
+  }
+}
